@@ -1,3 +1,4 @@
+```
 - hosts: all
   become: yes
   gather_facts: false
@@ -66,3 +67,5 @@
       url : https://github.com/docker/compose/releases/download/1.25.1-rc1/docker-compose-Linux-x86_64
       dest: /usr/local/bin/docker-compose
       mode: 'u+x,g+x'
+      
+```
