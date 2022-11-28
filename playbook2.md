@@ -1,7 +1,7 @@
 repo: deb https://download.docker.com/linux/ubuntu {{ ansible_distribution_release }} stable
 
 
-
+```
 - hosts: docker
   become: true
   tasks:
@@ -44,3 +44,4 @@ repo: deb https://download.docker.com/linux/ubuntu {{ ansible_distribution_relea
         url : https://github.com/docker/compose/releases/download/1.29.2/docker-compose-Linux-x86_64
         dest: /usr/local/bin/docker-compose
         mode: '755'
+```
